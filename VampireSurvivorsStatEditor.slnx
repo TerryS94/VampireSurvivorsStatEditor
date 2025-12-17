@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="VampireSurvivorsStatEditor.vcxproj" Id="0f54c3e9-0040-46c8-a855-ef5ba4c2a2a6" />
+</Solution>
