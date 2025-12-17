@@ -68,9 +68,11 @@ Also shows per second deltas for levels, xp, kills and gold.
 
 ## Build notes
 - **Language(s):** C++ (MASM available if needed)
+- **IDE:** Visual Studio 2026
 - **UI:** Dear ImGui
 - **Renderer:** DirectX 11
 - **Platform:** Windows
+- **Tested on:** Steam
 
 To build this repo, install PolyHook2 via vcpkg (`polyhook2:x64-windows-static`), or replace the hooking layer with your own implementation.
 
