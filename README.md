@@ -78,7 +78,7 @@ To build this repo, install PolyHook2 via vcpkg (`polyhook2:x64-windows-static`)
 
 ---
 
-## Safety, fairness, and common sense
+## Safety
 This is a runtime modding tool. You can absolutely break a run if you push values too far since I don't clamp most things!
 
 ---
@@ -92,3 +92,4 @@ This is a runtime modding tool. You can absolutely break a run if you push value
 - Dear ImGui
 - PolyHook2
 - Vampire Survivors (for being fun to play and poke at)
+- [@veteri](https://github.com/veteri) for getting me into the game in the first place by gifting me the game/dlc <3 
