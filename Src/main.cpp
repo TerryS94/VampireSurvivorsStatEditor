@@ -1,5 +1,5 @@
+#include "pch.h"
 #include "main.h"
-#include "masm_globals.h"
 
 static HMODULE g_hModule = nullptr;
 static const char* windowTitleAndClassname = "VS | Terry";

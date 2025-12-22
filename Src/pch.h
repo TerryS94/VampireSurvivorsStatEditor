@@ -1,5 +1,4 @@
 #pragma once
-
 #define NOMINMAX
 #include <windows.h>
 #include <thread>
@@ -23,13 +22,16 @@
 #include <set>
 #include <unordered_set>
 #include <array>
+#include <cmath>
+#include <stdint.h>
 
+#define _USE_MATH_DEFINES
 #define IMGUI_DEFINE_MATH_OPERATORS
-#include "imgui/imgui.h"
-#include "Imgui/imgui_internal.h"
-#include "imgui/imgui_impl_win32.h"
-#include "imgui/imgui_impl_dx11.h"
-#include "imgui/imgui_stdlib.h"
+#include "imgui.h"
+#include "imgui_internal.h"
+#include "imgui_impl_win32.h"
+#include "imgui_impl_dx11.h"
+#include "imgui_stdlib.h"
 
 #pragma comment(lib, "Psapi.lib")
 #pragma comment(lib, "d3d11.lib")
@@ -37,6 +39,8 @@
 #pragma comment(lib, "Dwmapi.lib")
 
 #include "polyhook2/Detour/x64Detour.hpp"
+
+#include "interFont.h"
 
 #include "resource.h"
 #include "timer.h"
@@ -53,4 +57,4 @@
 #include "imgui_ext.h"
 #include "render.h"
 
-extern bool isRunning;
+#include "masm_globals.h"

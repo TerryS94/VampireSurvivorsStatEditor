@@ -1,5 +1,4 @@
 #pragma once
-#include "main.h"
 
 enum class ETextureID : int
 {

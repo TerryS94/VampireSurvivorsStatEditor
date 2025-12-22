@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "il2cpp_helpers.h"
 
 namespace il2cpp

@@ -1,5 +1,4 @@
 #pragma once
-
 namespace PNGS
 {
     inline unsigned char icon_circle_questionmark[5699] =

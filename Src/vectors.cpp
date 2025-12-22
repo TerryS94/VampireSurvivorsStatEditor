@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "vectors.h"
 
 Vec2 Vec2::operator/(const Vec2& other) const

@@ -1,5 +1,5 @@
+#include "pch.h"
 #include "sig.h"
-#include "masm_globals.h"
 
 namespace sig
 {
@@ -53,7 +53,7 @@ namespace sig
         //const std::string CharacterSelectionPage_OnUpdatePattern = "40 53 48 83 ec ? 80 3d ? ? ? ? ? 48 8b d9 75 ? 48 8d 0d ? ? ? ? e8 ? ? ? ? f0 83 0c 24 ? 48 8d 0d ? ? ? ? e8 ? ? ? ? f0 83 0c 24 ? 48 8d 0d ? ? ? ? e8 ? ? ? ? f0 83 0c 24 ? 48 8d 0d ? ? ? ? e8 ? ? ? ? f0 83 0c 24 ? 48 8d 0d ? ? ? ? e8 ? ? ? ? f0 83 0c 24 ? c6 05 ? ? ? ? ? 48 89 6c 24 ? 33 d2 48 89 74 24 ? 48 8b cb 48 89 7c 24 ? e8 ? ? ? ? 48 8b 8b ? ? ? ? 48 85 c9";
         //BYTE* CharacterSelectionPage_OnUpdateAddr = FindPattern(CharacterSelectionPage_OnUpdatePattern, "GameAssembly.dll");
         //hook.createHook(ENameID::CharacterSelectionPage_OnUpdate, reinterpret_cast<uint64_t>(CharacterSelectionPage_OnUpdateAddr), reinterpret_cast<uint64_t>(&CharacterSelectionPage_OnUpdate_Hook));
-
+        
         const std::string StageSelectPage_OnUpdatePattern = "40 53 48 83 ec ? 33 d2 48 8b d9 e8 ? ? ? ? 48 8b 8b ? ? ? ? 48 85 c9 0f 84 ? ? ? ? 48 8b 01";
         BYTE* StageSelectPage_OnUpdateAddr = FindPattern(StageSelectPage_OnUpdatePattern, "GameAssembly.dll");
         hook.createHook(ENameID::StageSelectPage_OnUpdate, reinterpret_cast<uint64_t>(StageSelectPage_OnUpdateAddr), reinterpret_cast<uint64_t>(&StageSelectPage_OnUpdate_Hook));

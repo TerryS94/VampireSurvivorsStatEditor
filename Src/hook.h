@@ -1,5 +1,4 @@
 #pragma once
-#include "main.h"
 
 typedef void(__fastcall* tSoundManager_StopMusic)(BgmType song, void* method);
 typedef void(__fastcall* tResetGameSession)(GameManager* gm, bool disconnectFromCoherence, void* method);

@@ -1,5 +1,4 @@
 #pragma once
-#include "main.h"
 
 struct CharacterController;
 struct DataManager;

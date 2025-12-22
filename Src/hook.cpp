@@ -1,5 +1,5 @@
+#include "pch.h"
 #include "hook.h"
-#include "masm_globals.h"
 
 Hooks hook;
 

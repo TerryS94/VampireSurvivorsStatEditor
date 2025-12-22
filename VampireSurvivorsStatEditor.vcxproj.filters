@@ -21,7 +21,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui.cpp">
@@ -48,41 +48,44 @@
     <ClCompile Include="imgui\imgui_widgets.cpp">
       <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="sig.cpp">
+    <ClCompile Include="Src\sig.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="vectors.cpp">
+    <ClCompile Include="Src\vectors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="log.cpp">
+    <ClCompile Include="Src\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hook.cpp">
+    <ClCompile Include="Src\hook.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="masm_globals.cpp">
+    <ClCompile Include="Src\masm_globals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils.cpp">
+    <ClCompile Include="Src\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="dx11stuff.cpp">
+    <ClCompile Include="Src\dx11stuff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="render.cpp">
+    <ClCompile Include="Src\render.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="il2cpp_helpers.cpp">
+    <ClCompile Include="Src\il2cpp_helpers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="memory.cpp">
+    <ClCompile Include="Src\memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="game.cpp">
+    <ClCompile Include="Src\game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="imgui_ext.cpp">
+    <ClCompile Include="Src\imgui_ext.cpp">
       <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\pch.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -113,63 +116,66 @@
     <ClInclude Include="imgui\imstb_truetype.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="sig.h">
+    <ClInclude Include="Src\sig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="main.h">
+    <ClInclude Include="Src\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="vectors.h">
+    <ClInclude Include="Src\vectors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="log.h">
+    <ClInclude Include="Src\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="hook.h">
+    <ClInclude Include="Src\hook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="structs.h">
+    <ClInclude Include="Src\structs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="masm_globals.h">
+    <ClInclude Include="Src\masm_globals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="Src\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils.h">
+    <ClInclude Include="Src\utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="dx11stuff.h">
+    <ClInclude Include="Src\dx11stuff.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="render.h">
+    <ClInclude Include="Src\render.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="interFont.h">
+    <ClInclude Include="Src\interFont.h">
       <Filter>Header Files\imgui</Filter>
     </ClInclude>
-    <ClInclude Include="timer.h">
+    <ClInclude Include="Src\timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="il2cpp_helpers.h">
+    <ClInclude Include="Src\il2cpp_helpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="memory.h">
+    <ClInclude Include="Src\memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
+    <ClInclude Include="Src\game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="icons.h">
+    <ClInclude Include="Src\icons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="imgui_ext.h">
+    <ClInclude Include="Src\imgui_ext.h">
       <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\pch.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="assembly.asm">
+    <MASM Include="Src\assembly.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
@@ -179,7 +185,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="VampireSurvivorsStatEditor.rc">
+    <ResourceCompile Include="Src\VampireSurvivorsStatEditor.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>

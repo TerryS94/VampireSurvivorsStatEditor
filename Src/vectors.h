@@ -1,8 +1,4 @@
 #pragma once
-#define _USE_MATH_DEFINES
-#include "imgui/imgui.h"
-#include "imgui/imgui_internal.h"
-#include <cmath>
 
 typedef float vec_t;
 typedef vec_t vec2_t[2];

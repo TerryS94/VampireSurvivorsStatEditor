@@ -1,6 +1,5 @@
+#include "pch.h"
 #include "render.h"
-#include "masm_globals.h"
-#include "interFont.h"
 
 namespace rendering
 {
