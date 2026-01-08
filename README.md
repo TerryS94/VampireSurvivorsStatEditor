@@ -93,6 +93,3 @@ This is a runtime modding tool. You can absolutely break a run if you push value
 - PolyHook2
 - Vampire Survivors (for being fun to play and poke at)
 - [@veteri](https://github.com/veteri) for getting me into the game in the first place by gifting me the game/dlc <3
-
-## Found this useful?
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R81MZ47Q)
